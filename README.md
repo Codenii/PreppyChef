@@ -114,16 +114,16 @@ See **[ROADMAP.md](./ROADMAP.md)** for the full breakdown.
 
 | Version | Focus | Status |
 |---|---|---|
-| v0.1.0 | Project Foundation & Infrastructure | 🔲 Planned |
-| v0.2.0 | Recipe Browsing | 🔲 Planned |
-| v0.3.0 | User Accounts & Favorites | 🔲 Planned |
-| v0.4.0 | Custom Recipes | 🔲 Planned |
-| v0.5.0 | Menu Planning | 🔲 Planned |
-| v0.6.0 | Serving Size Scaling | 🔲 Planned |
-| v0.7.0 | Shopping Lists | 🔲 Planned |
-| v0.8.0 | Nutritional Data | 🔲 Planned |
-| v0.9.0 | PWA & Mobile Polish | 🔲 Planned |
-| v1.0.0 | Release Ready | 🔲 Planned |
+| v0.1.0 | Project Foundation & Infrastructure | [ ] Planned |
+| v0.2.0 | Recipe Browsing | [ ] Planned |
+| v0.3.0 | User Accounts & Favorites | [ ] Planned |
+| v0.4.0 | Custom Recipes | [ ] Planned |
+| v0.5.0 | Menu Planning | [ ] Planned |
+| v0.6.0 | Serving Size Scaling | [ ] Planned |
+| v0.7.0 | Shopping Lists | [ ] Planned |
+| v0.8.0 | Nutritional Data | [ ] Planned |
+| v0.9.0 | PWA & Mobile Polish | [ ] Planned |
+| v1.0.0 | Release Ready | [ ] Planned |
 
 ---
 
