@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "moduleResolution": "bundler",
+    "module": "ESNext",
+    "strict": true,
+    "declaration": true,
+    "declarationMap": true,
+    "sourceMap": true,
+    "moduleDetection": "force",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "types": ["vitest/globals"],
+  },
+}

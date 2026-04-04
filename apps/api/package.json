@@ -1,0 +1,34 @@
+{
+  "name": "@preppychef/api",
+  "private": true,
+  "packageManager": "pnpm@10.19.0",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx --watch --env-file=../.env src/index.ts",
+    "dev:docker": "text --watch src/index.ts",
+    "build": "tsc",
+    "start": "node --env-file=../.env dist/index.js",
+    "start:docker": "node dist/index.js",
+    "db:generate": "drizzle-kit generate",
+    "db:migrate": "drizzle-kit migrate",
+    "test": "vitest run",
+    "test:watch": "vitest --watch",
+    "test:coverage": "vitest run --coverage",
+    "lint": "eslint 'src/**/*.{ts,js}' --ext .ts --fix"
+  },
+  "dependencies": {
+    "@fastify/cookie": "^11.0.2",
+    "@fastify/cors": "^11.2.0",
+    "@fastify/sensible": "^6.0.4",
+    "fastify": "^5.8.4",
+    "fastify-plugin": "^5.1.0",
+    "pino": "^10.3.1",
+    "zod": "^4.3.6"
+  },
+  "devDependencies": {
+    "@types/node": "^25.5.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^6.0.2"
+  }
+}

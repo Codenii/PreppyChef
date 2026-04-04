@@ -1,0 +1,27 @@
+# Node
+node_modules/
+pnpm-lock.yaml
+
+# Build output
+dist/
+build/
+*.tsbuildinfo
+
+# Env files
+.env
+.env.*
+
+# Logs
+logs/
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docker
+docker-compose.override.yml
+
+# IDEs
+.vscode/
+.idea/
