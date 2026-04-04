@@ -1,0 +1,12 @@
+{
+  "name": "preppychef-root",
+  "private": true,
+  "packageManager": "pnpm@10.19.0",
+  "scripts": {
+    "dev": "",
+    "build": "pnpm --filter @preppychef/api build && pnpm --filter @preppychef/web build",
+    "build:api": "pnpm --filter @preppychef/api build",
+    "build:web": "pnpm --filter @preppychef/web build",
+    "install:all": "pnpm install"
+  }
+}
